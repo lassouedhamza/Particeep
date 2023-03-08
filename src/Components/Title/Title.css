@@ -1,0 +1,37 @@
+.Title-Container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.Title-Text {
+
+ 
+
+ 
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .Title-Text {
+    font-size: 1.8em;
+  }
+}
